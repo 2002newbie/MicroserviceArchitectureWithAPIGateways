@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceArchitectureWithAPIGateways.ProductService", "MicroserviceArchitectureWithAPIGateways.ProductService\MicroserviceArchitectureWithAPIGateways.ProductService.csproj", "{24C1A362-159A-4B5F-BF96-71D77D7C5601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceArchitectureWithAPIGateways.CategoryService", "MicroserviceArchitectureWithAPIGateways.CategoryService\MicroserviceArchitectureWithAPIGateways.CategoryService.csproj", "{7E6284A5-4428-48F7-9AE7-9CE3DE9F8FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceArchitectureWithAPIGateways.ApiGateways", "MicroserviceArchitectureWithAPIGateways.ApiGateways\MicroserviceArchitectureWithAPIGateways.ApiGateways.csproj", "{D211CECF-6EA3-43D0-96E7-00CB3FD422D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C1A362-159A-4B5F-BF96-71D77D7C5601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C1A362-159A-4B5F-BF96-71D77D7C5601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C1A362-159A-4B5F-BF96-71D77D7C5601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C1A362-159A-4B5F-BF96-71D77D7C5601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6284A5-4428-48F7-9AE7-9CE3DE9F8FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6284A5-4428-48F7-9AE7-9CE3DE9F8FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6284A5-4428-48F7-9AE7-9CE3DE9F8FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6284A5-4428-48F7-9AE7-9CE3DE9F8FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D211CECF-6EA3-43D0-96E7-00CB3FD422D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D211CECF-6EA3-43D0-96E7-00CB3FD422D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D211CECF-6EA3-43D0-96E7-00CB3FD422D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D211CECF-6EA3-43D0-96E7-00CB3FD422D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

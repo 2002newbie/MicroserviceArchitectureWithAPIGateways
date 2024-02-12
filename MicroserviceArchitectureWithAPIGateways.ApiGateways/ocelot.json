@@ -1,0 +1,35 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:8000"
+  },
+  "ReRoutes": [
+    {
+      "UpstreamPathTemplate": "/api/categories",
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5555
+        }
+      ],
+      "DownstreamPathTemplate": "/api/categories/get-all"
+    },
+    {
+      "UpstreamPathTemplate": "/api/products/get-all",
+      "UpstreamHttpMethod": [
+        "GET"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5556
+        }
+      ],
+      "DownstreamPathTemplate": "/api/products/get-all"
+    }
+  ]
+}
